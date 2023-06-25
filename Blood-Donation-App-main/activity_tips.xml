@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/semicircle"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="0dp">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="sans-serif-smallcaps"
+               android:text="Eligibility Criteria:"
+               android:textColor="@color/gray"
+               android:textSize="25dp"
+               android:textStyle="bold">
+           </TextView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="1) Age between 18 and 60 years."
+               android:paddingLeft="4dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textSize="20sp">
+           </TextView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="2) Haemoglobin - not less than 12.5 g/Dl."
+               android:paddingLeft="4dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textSize="20sp">
+           </TextView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="3) Blood Pressure -Systolic 100-180 mm Hg and Diastolic 50 - 100 mm Hg."
+               android:paddingLeft="4dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textSize="20sp">
+           </TextView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="4) Temperature - Normal (oral temperature not exceeding 37.50C)."
+               android:paddingLeft="4dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textSize="20sp">
+           </TextView>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+               android:text="5) Body weight - not less than 45 Kg."
+               android:paddingLeft="4dp"
+               android:textColor="@color/black"
+               android:textStyle="bold"
+               android:textSize="20sp">
+           </TextView>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginTop="30dp"
+                android:text="Health Condition:"
+                android:textColor="@color/gray"
+                android:textSize="25dp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1) Past six months - not had a tattoo, ear or skin piercing or acupuncture, not received blood or blood products."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2) Past three months - not donated blood or been treated for Malaria."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3) Past 48 hours - taken any antibiotics or any other medications (Allopathic or Ayurveda or Sidha or Homeo)."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4) Past 24 hours - taken alcoholic beverages"
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5) Past 72 hours - had dental work or taken Aspirin"
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="6) Present - not suffering from cough, influenza or sore throat, common cold."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7) Women should not be pregnant or breast feeding her child."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="8) Women donor should not donate during her menstrual cycles."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9) Free from Diabetes, not suffering from chest pain, heart disease or high BP, cancer, blood clotting problem or blood disease, unexplained fever."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Benifits:"
+                android:textColor="@color/gray"
+                android:layout_marginTop="30dp"
+                android:textSize="25dp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1) reduce stress."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2) improve your emotional well-being."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3) benefit your physical health."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4) help get rid of negative feelings."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5) provide a sense of belonging and reduce isolation."
+                android:paddingLeft="4dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="20sp">
+            </TextView>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
